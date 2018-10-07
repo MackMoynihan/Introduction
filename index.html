@@ -1,15 +1,70 @@
-<DOCTYPE!html>
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="mack_a1.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="static/mack_a1.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link href="jumbotron.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <title>Pear Programming</title>
 </head>
 <body>
-    <h1>Introduction to HTML and CSS</h1>
-    <h3>by Mack Moynihan</h3>
-    <p class="info">I am currently working on a full stack web application using <a href="http://flask.pocoo.org/">Flask</a>.</p>
-    <p>Here is a really inspiration quote I found on the internet: "<i>The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.</i>"</p>
-    <p>My three <em>favorite actors</em> are:</p>
-    <span id="special-actor">Dwayne Johnson</span><span>Ryan Reynolds</span><span>Benedict Cumberbatch</span>
+    <div>
+        <h1>Introduction to <span class="info">HTML</span> and CSS</h1>
+        <h3>by Mack Moynihan</h3>
+        <p class="info">I am currently working on a full stack web application using <a href="http://flask.pocoo.org/">Flask</a>.</p>
+        <p>Here is a really inspiration quote I found on the internet: "<i>The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.</i>"</p>
+        <p>My three <em>favorite actors</em> are:</p>
+        <span id="special-actor">Dwayne Johnson</span><span>Ryan Reynolds</span><span>Benedict Cumberbatch</span>
+    </div>
+    <div class="Container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Introduction to HTML and CSS</h1>
+                <h6>by Mack Moynihan</h6>
+                <p class="lead">I am currently working on a full stack web application using <a href="http://flask.pocoo.org/">Flask</a>.</p>
+            </div>
+        </div> <!-- jumbotron -->
+        <!-- Example row of columns -->
+        <div class="row justify-content-md-center" style="margin-left: 40px; margin-right: 40px;">
+            <div class="col-md-4">
+                <div class="card" style="width: auto;">
+                    <img src="static/images/dj.jpeg" class="img-fluid card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Dwayne Johnson</h5>
+                        <p class="card-text">He is a really famous movie star and also motivates people to work really hard to achieve their dreams</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: auto;">
+                    <img src="static/images/rr.jpeg" class="img-fluid card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ryan Reynolds</h5>
+                        <p class="card-text">Known for many movies including my favorite movie Deadpool.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: auto;">
+                    <img src="static/images/bc.jpeg" class="img-fluid card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Benedict Cumberbatch</h5>
+                        <p class="card-text">He plays Dr. Strange in the Marvel universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="margin-top: 20px;">
+            <div class="card-body">
+                <p>Here is a really inspiration quote I found on the internet:</p>
+                <blockquote class="blockquote" style="margin-left: 30px;"><p class="mb-0">The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.</p><footer class="blockquote-footer"><cite title="Source Title">Brainy Quote</cite></footer></blockquote>
+
+            </div>
+        </div>
+    </div> <!-- /container -->
 </body>
-<body class="container"
 </html>

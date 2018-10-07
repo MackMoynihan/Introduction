@@ -16,7 +16,9 @@ span {
     font-size: 20px;
 }
 
-p.info {
+.info {
+    font-size: 40px;
+    font-weight: 400;
     font-family: Courier New;
 }
 
