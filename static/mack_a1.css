@@ -1,0 +1,25 @@
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+p.info {
+    font-family: Courier New;
+}
+
+#special-actor {
+    color: red;
+}
